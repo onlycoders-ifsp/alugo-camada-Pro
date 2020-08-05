@@ -19,7 +19,11 @@ public class Aluguel {
     private Usuario locatario;
     @ManyToOne
     private Produto produto;
+    @Column
     private Date dataInicio;
+    @Column
     private Date dataFim;
+    @Column
     private Date dataSaque;
+
 }
