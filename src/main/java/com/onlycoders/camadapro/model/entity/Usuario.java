@@ -3,7 +3,7 @@
  * Programador: Dilan Lima
  * Decrição: Entidade que mapea a tabela de usuários
  * #########################################################################
-  */
+ */
 
 package com.onlycoders.camadapro.model.entity;
 
@@ -18,7 +18,8 @@ import java.util.Date;
 /*o @Getter e @Setter gera automaticamente os métodos básicos em tempo de execução*/
 /*o @NoArgsConstructor diz que o método construtor não possui parâmetros*/
 @Entity
-@Getter@Setter
+@Getter
+@Setter
 @NoArgsConstructor
 public class Usuario {
     @Id
@@ -55,5 +56,7 @@ public class Usuario {
 
     @Column
     private Boolean ativo;
+    @Column
+    private String codigo;
 
 }

@@ -31,4 +31,6 @@ public class Produto {
     @Column
     private Boolean ativo;
 
+
+
 }
